@@ -12,9 +12,9 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
     const HighlightedDrodown = "flex items-center gap-2 p-2 rounded font-light text-sm text-primary lg:hover:bg-primary lg:hover:text-white lg:cursor-pointer lg:transition-all"
     const navListStyling = "w-[100%] flex justify-center text-center"
     const navLinkStyling = "py-[12px] w-[100%] dark:hover:text-white hover:bg-primary rounded font-light text-sm md:text-[.95remrem] lg:bg-transparent lg:dark:bg-transparent lg:py-0 lg:hover:text-primary transition-all lg:dark:hover:text-primary lg:hover:bg-transparent lg:dark:font-[300]"
-
+    const headerStyling = "sticky top-0 border-b-[1px] border-secondary dark:border-gray-200 transition-all z-50 backdrop-blur-md bg-black/30 backdrop-brightness-50 dark:backdrop-blur dark:bg-white/30 dark:backdrop-brightness-100"
     return (
-        <div className="sticky top-0 border-b-[1px] border-secondary dark:border-gray-200 transition-all z-50 backdrop-blur-md bg-black/30 backdrop-brightness-50 dark:backdrop-blur dark:bg-white/30 dark:backdrop-brightness-100">
+        <div className={openNav ? headerStyling : `overflow-hidden ${headerStyling}`}>
             <div className="flex justify-between items-center py-6 px-7 text-white relative dark:text-black md:px-10 lg:max-w-screen-xl lg:mx-auto lg:px-7">
                 <h1 className="text-3xl font-medium text-primary md:text-[2.1rem]">TT</h1>
 
