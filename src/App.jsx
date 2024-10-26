@@ -5,7 +5,8 @@ import About from './components/about';
 import Skills from './components/skills';
 import Technologies from './components/technologies';
 import Projects from './components/projects';
-
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 const App = () => {
     const [theme, setTheme] = useState('dark')
@@ -17,12 +18,14 @@ const App = () => {
             <Nav theme={theme} setTheme={setTheme} openNav={openNav} setOpenNav={setOpenNav}/>
             <div className={openNav ? blurStyling : ''}></div>
             <Hero/>
-            <main className='px-7 lg:max-w-screen-xl lg:mx-auto lg:px-10'>
+            <main className='px-7 md:px-10 lg:max-w-screen-xl lg:mx-auto lg:px-7'>
                 <About/>
                 <Skills/>
                 <Technologies/>
                 <Projects/>
+                <Contact/>
             </main>
+            <Footer/>
         </div>
     )
 }
