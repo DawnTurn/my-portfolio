@@ -6,7 +6,7 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
     const burgerStyling = "w-[32px] h-[2.1px] bg-white dark:bg-black rounded-md transition-all"
     const openNavStyling = 'absolute gap-4 bg-secondary dark:bg-gray-200 text-white dark:text-black w-[45%] right-1 top-[100%] p-6 flex flex-col items-center rounded translate-x-0 transition-all'
     const closeNavStyling = 'fixed gap-4 bg-secondary dark:bg-gray-200 text-white dark:text-black w-[45%] right-0 top-[100%] p-6 flex flex-col items-center rounded transition-all translate-x-full lg:translate-x-0 lg:text-sm lg:font-light lg:p-0 lg:h-auto lg:flex lg:gap-12 lg:flex-row lg:static lg:w-auto lg:bg-transparent lg:dark:bg-transparent lg:dark:text-black'
-    const openDropdownStyling = "fixed flex flex-col gap-2 bg-secondary p-3 rounded left-[-100%] top-[100%] transition-all dark:bg-gray-200"
+    const openDropdownStyling = "absolute flex flex-col gap-2 bg-secondary p-3 rounded left-[-100%] top-[100%] transition-all dark:bg-gray-200"
     const closeDropdownStyling = "absolute flex flex-col gap-2 bg-secondary p-3 rounded left-[-100%] top-[100%] opacity-0 pointer-events-none transition-all dark:bg-gray-200"
     const drodownStylingContent = "flex items-center gap-2 p-2 rounded font-light text-sm lg:hover:bg-primary lg:hover:text-white lg:cursor-pointer lg:transition-all"
     const HighlightedDrodown = "flex items-center gap-2 p-2 rounded font-light text-sm text-primary lg:hover:bg-primary lg:hover:text-white lg:cursor-pointer lg:transition-all"
@@ -20,16 +20,14 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
                 <h1 className="text-3xl font-medium text-primary md:text-[2.1rem]">TT</h1>
 
                 <div className="flex items-center gap-7 lg:gap-16">
-                    <div>
-                        <ul className={openNav ? openNavStyling : closeNavStyling}>
-                            <li className={navListStyling}><a href="#" className={navLinkStyling}>Home</a></li>
-                            <li className={navListStyling}><a href="#about" className={navLinkStyling}>About</a></li>
-                            <li className={navListStyling}><a href="#skills" className={navLinkStyling}>Skills</a></li>
-                            <li className={navListStyling}><a href="#projects" className={navLinkStyling}>Projects</a></li>
-                            <li className={navListStyling}><a href="#contact" className={navLinkStyling}>Contact</a></li>
-                            <li className={navListStyling}><a href="#" className={navLinkStyling}>Resume</a></li>
-                        </ul>
-                    </div>
+                    <ul className={openNav ? openNavStyling : closeNavStyling}>
+                        <li className={navListStyling}><a href="#" className={navLinkStyling}>Home</a></li>
+                        <li className={navListStyling}><a href="#about" className={navLinkStyling}>About</a></li>
+                        <li className={navListStyling}><a href="#skills" className={navLinkStyling}>Skills</a></li>
+                        <li className={navListStyling}><a href="#projects" className={navLinkStyling}>Projects</a></li>
+                        <li className={navListStyling}><a href="#contact" className={navLinkStyling}>Contact</a></li>
+                        <li className={navListStyling}><a href="#" className={navLinkStyling}>Resume</a></li>
+                    </ul>
 
                     <div className="relative pt-1">
                         <span 
