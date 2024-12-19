@@ -1,1 +1,1 @@
-# Portfolio built with React + Vite
+# Portfolio built with React & Tailwind.CSS
