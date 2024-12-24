@@ -21,6 +21,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     box-sizing: border-box;
+    color: #0f0f0f;
   }
 
 }
@@ -31,5 +32,30 @@
     pointer-events: none;
     transition: transform .5s, background .5s;
     transform-origin: 100% 100%;
+  }
+
+  .slideY{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .slide-Y{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .slideX{
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  .slide-X{
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  .dim{
+    opacity: 0;
+    transform: translateY(20px);
   }
 }
