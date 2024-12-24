@@ -4,20 +4,20 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
     
     const [openDropDown, setOpenDropDown] = useState(false);
     const burgerStyling = "w-[32px] h-[2.1px] bg-white dark:bg-black rounded-md transition-all"
-    const openNavStyling = 'absolute gap-4 bg-secondary dark:bg-gray-200 text-white dark:text-black w-[45%] right-1 top-[100%] p-6 flex flex-col items-center rounded translate-x-0 transition-all'
+    const openNavStyling = 'absolute gap-4 bg-secondary dark:bg-gray-200 text-white dark:text-black z-40 w-[45%] right-1 top-[100%] p-6 flex flex-col items-center rounded translate-x-0 transition-all'
     const closeNavStyling = 'fixed gap-4 bg-secondary dark:bg-gray-200 text-white dark:text-black w-[45%] right-0 top-[100%] p-6 flex flex-col items-center rounded transition-all translate-x-full lg:translate-x-0 lg:text-sm lg:font-light lg:p-0 lg:h-auto lg:flex lg:gap-12 lg:flex-row lg:static lg:w-auto lg:bg-transparent lg:dark:bg-transparent lg:dark:text-black'
     const openDropdownStyling = "absolute flex flex-col gap-2 bg-secondary p-3 rounded left-[-100%] top-[100%] transition-all dark:bg-gray-200"
-    const closeDropdownStyling = "absolute flex flex-col gap-2 bg-secondary p-3 rounded left-[-100%] top-[100%] opacity-0 pointer-events-none transition-all dark:bg-gray-200"
-    const drodownStylingContent = "flex items-center gap-2 p-2 rounded font-light text-sm lg:hover:bg-primary lg:hover:text-white lg:cursor-pointer lg:transition-all"
-    const HighlightedDrodown = "flex items-center gap-2 p-2 rounded font-light text-sm text-primary lg:hover:bg-primary lg:hover:text-white lg:cursor-pointer lg:transition-all"
+    const closeDropdownStyling = "absolute flex flex-col gap-2 bg-secondary p-3 rounded left-[-100%] top-[100%] opacity-0 pointer-events-none transition-all dark:bg-gray-200 link"
+    const drodownStylingContent = "flex items-center gap-2 p-2 rounded font-light text-sm lg:hover:bg-primary lg:hover:text-white link lg:transition-all"
+    const HighlightedDrodown = "flex items-center gap-2 p-2 rounded font-light text-sm text-primary lg:hover:bg-primary lg:hover:text-white lg:transition-all"
     const navListStyling = "w-[100%] flex justify-center text-center"
     const navLinkStyling = "py-[12px] w-[100%] dark:hover:text-white hover:bg-primary rounded font-light text-sm md:text-[.95remrem] lg:bg-transparent lg:dark:bg-transparent lg:py-0 lg:hover:text-primary transition-all lg:dark:hover:text-primary lg:hover:bg-transparent lg:dark:font-[300]"
-    const headerStyling = "sticky top-0 border-b-[1px] border-secondary dark:border-gray-200 transition-all z-50 backdrop-blur-md bg-black/30 backdrop-brightness-50 dark:backdrop-blur dark:bg-white/30 dark:backdrop-brightness-100"
+    const headerStyling = "sticky top-0 border-b-[1px] border-secondary dark:border-gray-200 transition-all z-40 backdrop-blur-md bg-black/30 backdrop-brightness-50 dark:backdrop-blur dark:bg-white/30 dark:backdrop-brightness-100"
     
     return (
         <div className={headerStyling}>
             <div className="flex justify-between items-center py-6 px-7 text-white relative dark:text-black md:px-10 lg:max-w-screen-xl lg:mx-auto lg:px-7">
-                <h1 className="text-3xl font-medium text-primary md:text-[2.1rem]">TT</h1>
+                <h1 className="text-3xl font-medium text-primary md:text-[2.1rem]"><a href="#">TT</a></h1>
 
                 <div className="flex items-center gap-7 lg:gap-16">
                     <ul className={openNav ? openNavStyling : closeNavStyling}>
@@ -31,7 +31,7 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
 
                     <div className="relative pt-1">
                         <span 
-                            className="text-xl cursor-pointer transition-all flex items-center" 
+                            className="text-xl transition-all flex items-center link" 
                             onClick={() => {
                                 setOpenNav(false);
                                 setOpenDropDown(!openDropDown)
@@ -65,7 +65,7 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
                             </p>
 
                             <p 
-                                className="flex items-center gap-2 p-2 rounded font-light text-sm lg:hover:bg-primary lg:hover:text-white lg:cursor-pointer" 
+                                className="flex items-center gap-2 p-2 rounded font-light text-sm lg:hover:bg-primary lg:hover:text-white" 
                                 onClick={() => {
                                     const isSystemDark = window.matchMedia("(prefers-color-scheme: dark)").matches
                                     if(isSystemDark){
@@ -83,7 +83,7 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
                     </div>
 
                     <div 
-                        className="flex flex-col gap-[8px] z-50 b-burger cursor-pointer lg:hidden" 
+                        className="flex flex-col gap-[8px] z-50 b-burger lg:hidden" 
                         onClick={() => {
                             setOpenDropDown(false)
                             setOpenNav(!openNav)

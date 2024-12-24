@@ -6,7 +6,7 @@ const contact = () => {
     const socialTextStyling = "text-[.8rem] font-[300] md:text-[.9rem]"
 
     return (
-        <div className="mt-32 relative z-10 md:mt-36 lg:mt-48" id="contact">
+        <div className="mt-32 relative z-10 md:mt-36 lg:mt-48 px-7 md:px-10 lg:max-w-screen-xl lg:mx-auto lg:px-7" id="contact">
             <div className='absolute w-[2.7em] h-[5em] skew-y-[40deg] bg-primary right-0 top-[-50%] -z-10'></div>
             <div className="z-10">
                 <h1 className="text-3xl font-medium text-center md:text-4xl lg:text-5xl">Get in Touch.</h1>

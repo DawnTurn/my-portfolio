@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-cont {
+  --cursor-color: #ff0059;
+}
+
+.main-cont.dark {
+  --cursor-color: #ff0059;
+}
 
 @font-face{
   font-family: 'Poppins', sans-serif;
@@ -14,5 +21,15 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     box-sizing: border-box;
+  }
+
+}
+
+@layer utilities{
+  .mouse{
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: transform .5s, background .5s;
+    transform-origin: 100% 100%;
   }
 }

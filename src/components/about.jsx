@@ -3,7 +3,7 @@ import heroSvg from '../assets/26432.svg';
 
 const about = () => {
     return (
-        <div className="mt-20 relative md:mt-28 z-10" id='about'>
+        <div className="mt-20 relative md:mt-28 z-10 px-7 md:px-10 lg:max-w-screen-xl lg:mx-auto lg:px-7" id='about'>
             <div className='-z-10 absolute w-[2.7em] h-[5em] skew-y-[40deg] bg-secondary dark:bg-gray-200 left-0 top-[-2%] lg:-top-10 lg:right-o'></div>
             <h1 className='z-10 text-2xl mb-3 font-medium md:text-3xl lg:text-3xl lg:mb-16'>About Me</h1>
             
@@ -35,7 +35,7 @@ const about = () => {
                     </button>
                 </div>
                 <div className='w-[80%] mt-20 mx-auto relative md:w-[23rem] lg:m-0'>
-                    <img src={displayPic} className='rounded-full object-cover lg:w-[23em] lg:h-[23em' alt="" />
+                    <img src={displayPic} className='rounded-full object-cover lg:w-[23em] lg:h-[23em link' alt="" />
                     <img src={heroSvg} className='absolute w-[30%] h-[30%] right-0 top-0 pointer-events-none'/>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const services = () => {
     const pListStyling = "text-sm font-light flex items-center gap-2 py-1 md:text-[.95rem]"
 
     return (
-        <div className="mt-20 relative md:mt-28" id="skills">
+        <div className="mt-20 relative md:mt-28 px-7 md:px-10 lg:max-w-screen-xl lg:mx-auto lg:px-7" id="skills">
             <div className='absolute w-[2.7em] h-[5em] skew-y-[40deg] bg-primary right-0 top-[-2%]'></div>
 
             <div className="">

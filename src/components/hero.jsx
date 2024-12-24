@@ -36,8 +36,8 @@ const hero = () => {
             </div>
 
             <div className='relative mt-3 md:w-[28rem] md:mx-auto lg:w-[40%]'>
-                <img src={heroImg} className='grayscale-[90%]' alt=""/>
-                <img src={heroSvg} className='absolute w-[30%] h-[30%] right-0 top-0'/>
+                <img src={heroImg} className='grayscale-[90%] link' alt=""/>
+                <img src={heroSvg} className='absolute w-[30%] h-[30%] right-0 top-0 pointer-events-none'/>
             </div>
         </div>
     )
