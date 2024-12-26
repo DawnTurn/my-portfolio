@@ -32,7 +32,7 @@ const projects = () => {
             ease: 'power1.inOut',
             scrollTrigger: {
                 trigger: '.pro-anim',
-                start: 'top 70%',
+                start: 'top 80%',
                 end: 'bottom 10%',
             }
         });
@@ -48,7 +48,7 @@ const projects = () => {
                 ease: 'power1.inOut',
                 scrollTrigger: {
                     trigger: classSelector,
-                    start: 'top 75%',
+                    start: 'top 80%',
                 }
             });
         }

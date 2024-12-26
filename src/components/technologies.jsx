@@ -18,7 +18,7 @@ const technologies = () => {
             stagger: 0.15,
             scrollTrigger: {
                 trigger: '.tech-anim',
-                start: 'top 70%',
+                start: 'top 80%',
                 end: 'bottom 70%',
             }
         });
@@ -33,7 +33,7 @@ const technologies = () => {
             stagger: 0.05,
             scrollTrigger: {
                 trigger: '.tech-skill-anim',
-                start: 'top 70%',
+                start: 'top 80%',
                 end: 'bottom 70%',
             }
         });

@@ -23,7 +23,7 @@ const App = () => {
                 outerStyle={{
                     border: '3px solid var(--cursor-color)',
                     backgroundColor: 'none',
-                    backdropFilter: 'grayscale()'
+                    backdropFilter: 'grayscale()',
                 }}
                 innerStyle={{
                     backgroundColor: 'var(--cursor-color)'

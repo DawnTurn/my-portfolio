@@ -21,7 +21,7 @@ const services = () => {
             ease: 'power1.inOut',
             scrollTrigger: {
                 trigger: '.anim-skills',
-                start: 'top 70%',
+                start: 'top 80%',
                 end: 'bottom 10%',
             }
         });
@@ -36,7 +36,7 @@ const services = () => {
             ease: 'power1.inOut',
             scrollTrigger: {
                 trigger: '.skill-container-anim',
-                start: 'top 70%',
+                start: 'top 80%',
             }
         });
     }, []);

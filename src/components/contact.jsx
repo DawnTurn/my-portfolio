@@ -20,7 +20,7 @@ const contact = () => {
             ease: 'power1.inOut',
             scrollTrigger: {
                 trigger: '.contact-anim',
-                start: 'top 75%',
+                start: 'top 80%',
                 end: 'bottom 10%',
             }
         });
