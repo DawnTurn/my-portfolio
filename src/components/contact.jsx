@@ -34,15 +34,15 @@ const contact = () => {
                 <p className="text-sm font-light mt-5 text-center lg:mt-8 md:text-[.95rem] contact-anim">I'm currnetly specializing in <span className="text-primary">Frontend Development</span></p>
 
                 <div className="mt-8 flex gap-4 justify-center lg:gap-6 contact-anim">
-                    <a target="_blank" href="" className={socialLinkstyling}>
+                    <a href="https://github.com/DawnTurn" target="_blank" className={socialLinkstyling}>
                         <i className={`bx bxl-github ${socialIconStyling}`}></i>
                         <span className={socialTextStyling}>Github</span>
                     </a>
-                    <a target="_blank" href="" className={socialLinkstyling}>
+                    <a  href="https://www.linkedin.com/in/adebowale-ademuyiwa-505b56323/" target="_blank" className={socialLinkstyling}>
                         <i className={`bx bxl-linkedin ${socialIconStyling}`}></i>
                         <span className={socialTextStyling}>LinkedIn</span>
                     </a>
-                    <a target="_blank" href="mailto:adebowaleademuyiwa12@gmail.com" className={socialLinkstyling}>
+                    <a  href="mailto:adebowaleademuyiwa12@gmail.com" target="_blank" className={socialLinkstyling}>
                         <i className={`bx bxs-envelope ${socialIconStyling}`}></i>
                         <span className={socialTextStyling}>Email</span>
                     </a>

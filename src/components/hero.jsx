@@ -41,15 +41,15 @@ const hero = () => {
                 </p>
                 <p className="my-5 text-sm font-[300] text-white/70 dark:font-medium dark:text-gray-800 md:text-[.95rem] lg:mt-7 lg:mb-12 lg:text-lg slideY"><span className="text-lg">🚀</span> Currently specializing in Next.js</p>
                 <div className="my-6 flex gap-4 justify-center md:gap-6 lg:justify-start lg:my-0 slideY">
-                    <a target="_blank" href="" className={socialLinkstyling}>
+                    <a href="https://github.com/DawnTurn" target="_blank" className={socialLinkstyling}>
                         <i className={`bx bxl-github ${socialIconStyling}`}></i>
                         <span className={socialTextStyling}>Github</span>
                     </a>
-                    <a target="_blank" href="" className={socialLinkstyling}>
+                    <a href="https://www.linkedin.com/in/adebowale-ademuyiwa-505b56323/" target="_blank" className={socialLinkstyling}>
                         <i className={`bx bxl-linkedin ${socialIconStyling}`}></i>
                         <span className={socialTextStyling}>LinkedIn</span>
                     </a>
-                    <a target="_blank" href="mailto:adebowaleademuyiwa12@gmail.com" className={socialLinkstyling}>
+                    <a  href="mailto:adebowaleademuyiwa12@gmail.com" target="_blank" className={socialLinkstyling}>
                         <i className={`bx bxs-envelope ${socialIconStyling}`}></i>
                         <span className={socialTextStyling}>Email</span>
                     </a>

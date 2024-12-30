@@ -71,7 +71,8 @@ const about = () => {
                     </p>
                     <button className='slide-Y'>
                         <a 
-                            href="#" 
+                            href="https://drive.google.com/file/d/1T5DzQ8VRBQSADJ3BoWBwTaFb6H20GvYW/view?usp=sharing"
+                            target='_blank' 
                             className='py-1 px-4 bg-secondary dark:bg-gray-300 dark:text-black rounded text-white flex items-center gap-[1px] text-sm dark:hover:bg-primary dark:hover:text-white hover:bg-primary hover:text-white group hover:shadow-lg hover:shadow-primary transition-all md:text-base md:py-2 md:px-5'
                         >
                             <span>Resume</span>

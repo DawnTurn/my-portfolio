@@ -26,7 +26,7 @@ const nav = ({theme, setTheme, openNav, setOpenNav}) => {
                         <li className={navListStyling}><a href="#skills" className={navLinkStyling}>Skills</a></li>
                         <li className={navListStyling}><a href="#projects" className={navLinkStyling}>Projects</a></li>
                         <li className={navListStyling}><a href="#contact" className={navLinkStyling}>Contact</a></li>
-                        <li className={navListStyling}><a href="#" className={navLinkStyling}>Resume</a></li>
+                        <li className={navListStyling}><a href="https://drive.google.com/file/d/1T5DzQ8VRBQSADJ3BoWBwTaFb6H20GvYW/view?usp=sharing" target="_blank" className={navLinkStyling}>Resume</a></li>
                     </ul>
 
                     <div className="relative pt-1">
