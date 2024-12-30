@@ -7,7 +7,7 @@ const footer = () => {
                 <h1 className="text-3xl font-medium text-primary">TT</h1>
                 <p className="text-[.75rem] font-[300] w-[25em] lg:w-[30em] lg:text-[.8rem]">
                     Designed and developed by yours truly. built with react and tailwind CSS, 
-                    depolyed with (render). All text is set in 
+                    depolyed with (vercel). All text is set in 
                     <span className="text-primary"> Poppins</span> typeface
                 </p>
             </div>
