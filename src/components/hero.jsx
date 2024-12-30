@@ -36,7 +36,7 @@ const hero = () => {
                 <h1 className="text-[2.5rem] font-medium my-2 md:text-[3rem] lg:text-[4.7rem] lg:font-bold slideY">Timmy Turner.</h1>
                 <p className="text-sm leading-6 font-[300] text-white/70 dark:font-medium dark:text-gray-800 z-10 md:w-[75%] md:mx-auto md:text-[.95rem] lg:w-[unset] slideY lg:mx-0 lg:text-xl lg:my-4 lg:pr-4">
                     <span className="text-lg font-[500] dark:font-bold text-white dark:text-black lg:text-2xl">
-                        A Frontend Developer.
+                        A Web Developer.
                     </span> Fond of creating websites and web application designs and bring them to life using code & develop mobile designs.
                 </p>
                 <p className="my-5 text-sm font-[300] text-white/70 dark:font-medium dark:text-gray-800 md:text-[.95rem] lg:mt-7 lg:mb-12 lg:text-lg slideY"><span className="text-lg">🚀</span> Currently specializing in Next.js</p>

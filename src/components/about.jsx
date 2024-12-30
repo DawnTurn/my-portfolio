@@ -54,9 +54,9 @@ const about = () => {
             
             <div className='flex flex-col lg:flex-row-reverse lg:gap-20 items-center lg:justify-end'>
                 <div className=' lg:w-[55%]'>
-                    <h3 className='z-10 text-lg md:text-xl mb-5 lg:text-xl slide-Y'>A <span className='text-primary'>Frontend</span> Web Developer</h3>
-                    <p className='text-sm mb-2 font-[300] leading-7 md:mb-3 md:text-[.95rem] slide-Y'>i'm a self taught, creative Frontend 
-                        developer based in <span className='text-primary'>Nigeria</span> and i am very passionate about career, 
+                    <h3 className='z-10 text-lg md:text-xl mb-5 lg:text-xl slide-Y'>A <span className='text-primary'>Web</span> Developer</h3>
+                    <p className='text-sm mb-2 font-[300] leading-7 md:mb-3 md:text-[.95rem] slide-Y'>i'm a creative Web 
+                        developer and i am very passionate about career, 
                         technology, 👾 gaming and music. i work with <span className='text-primary'>web technologies</span> and 
                         <span className='text-primary'> Ui/UX designs </span> 
                         to build websites with a focus on responsive design, deliver quality, easy usage and accessibility.
